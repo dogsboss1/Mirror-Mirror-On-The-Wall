@@ -82,9 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				A49D299A1BD2814100BCAF07 /* Mirror Mirror On The Wall */,
-				A49D29B41BD2814100BCAF07 /* Mirror Mirror On The WallTests */,
-				A49D29BF1BD2814200BCAF07 /* Mirror Mirror On The WallUITests */,
-				A49D29991BD2814100BCAF07 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +93,7 @@
 				A49D29BC1BD2814100BCAF07 /* Mirror Mirror On The WallUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A49D299A1BD2814100BCAF07 /* Mirror Mirror On The Wall */ = {
@@ -106,9 +104,6 @@
 				A49D29A11BD2814100BCAF07 /* ViewController.h */,
 				A49D29A21BD2814100BCAF07 /* ViewController.m */,
 				A49D29A41BD2814100BCAF07 /* Main.storyboard */,
-				A49D29A71BD2814100BCAF07 /* Assets.xcassets */,
-				A49D29A91BD2814100BCAF07 /* LaunchScreen.storyboard */,
-				A49D29AC1BD2814100BCAF07 /* Info.plist */,
 				A49D299B1BD2814100BCAF07 /* Supporting Files */,
 			);
 			path = "Mirror Mirror On The Wall";
@@ -117,6 +112,12 @@
 		A49D299B1BD2814100BCAF07 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A49D29A71BD2814100BCAF07 /* Assets.xcassets */,
+				A49D29A91BD2814100BCAF07 /* LaunchScreen.storyboard */,
+				A49D29AC1BD2814100BCAF07 /* Info.plist */,
+				A49D29B41BD2814100BCAF07 /* Mirror Mirror On The WallTests */,
+				A49D29BF1BD2814200BCAF07 /* Mirror Mirror On The WallUITests */,
+				A49D29991BD2814100BCAF07 /* Products */,
 				A49D299C1BD2814100BCAF07 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -129,7 +130,7 @@
 				A49D29B71BD2814100BCAF07 /* Info.plist */,
 			);
 			path = "Mirror Mirror On The WallTests";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		A49D29BF1BD2814200BCAF07 /* Mirror Mirror On The WallUITests */ = {
 			isa = PBXGroup;
@@ -138,7 +139,7 @@
 				A49D29C21BD2814200BCAF07 /* Info.plist */,
 			);
 			path = "Mirror Mirror On The WallUITests";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -414,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mirror Mirror On The Wall/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "KGC.Mirror-Mirror-On-The-Wall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mirror Mirror On The Wall/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "KGC.Mirror-Mirror-On-The-Wall";
 				PRODUCT_NAME = "$(TARGET_NAME)";

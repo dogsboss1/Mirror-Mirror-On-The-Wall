@@ -10,6 +10,20 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *cameraFeedIamge;
+
+- (IBAction)infoButtonPressed:(UIButton *)sender;
+- (IBAction)flipImageButtonPressed:(UIButton *)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *infoButton;
+@property (weak, nonatomic) IBOutlet UIButton *flipImageButton;
+@property (weak, nonatomic) IBOutlet UIView *infomationView;
+@property (weak, nonatomic) IBOutlet UILabel *infoTitleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *exitLabel;
+
+@property (weak, nonatomic) IBOutlet UITextView *infoTextView;
+
+@property BOOL shouldInfoViewDisplay;
 
 @end
 
